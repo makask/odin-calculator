@@ -9,6 +9,15 @@ html {
     box-sizing: inherit;
   }
 
+.title {
+   text-align: center;
+   margin-top: 18rem;
+}
+
+.title-text {
+    font-size: 5rem;
+}
+
 .calculator {
     border: 2px solid black;
     border-radius: 5px;
@@ -28,6 +37,10 @@ html {
     text-align: right;
     padding-right: 20px;
     padding-left: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 button {
@@ -60,11 +73,9 @@ button:hover {
 
 .display-primary{
     font-size: 5rem;
-    position: sticky;
     left: 10px;
 }
 
 .display-secondary {
     font-size: 3rem;
-}
-    
+}   
